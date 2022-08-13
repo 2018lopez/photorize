@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photorize</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main" class="main"></div>
+  <script src="photo.js"></script>
+  <script>
+    Elm.Photo.init({
+      node: document.getElementById('main')
+    });
+  </script>
+</body>
+</html>
